@@ -1,29 +1,24 @@
 # Practica-6-78760
 
-# 🏔️ Análisis de pendientes en un terreno topográfico
+# 🧭 Análisis de Pendientes Topográficas
 
 ## 🎯 Objetivo
-Calcular y visualizar las pendientes de un terreno a partir de una matriz de elevaciones usando Python y estructuras de datos matriciales.
-
-## 🧠 Marco teórico
-La pendiente indica la inclinación del terreno respecto a la horizontal...
-(se incluye la fórmula y explicación)
-
-## 💻 Desarrollo
-El programa utiliza:
-- `NumPy` para los cálculos.
-- `Matplotlib` para el mapa visual.
-- `Tkinter` como interfaz gráfica.
+Modelar un terreno con una matriz de elevaciones y calcular las pendientes (%) entre puntos adyacentes para identificar inclinaciones del terreno.
 
 ## ⚙️ Funcionamiento
-1. El usuario ingresa la distancia entre puntos (en metros).
-2. Se carga un archivo CSV con elevaciones o se usa una matriz de ejemplo.
-3. El programa calcula las pendientes en porcentaje.
-4. Se muestra el mapa de pendientes.
+1. El programa genera una matriz de elevaciones aleatoria.
+2. Calcula las pendientes en dirección Este–Oeste y Norte–Sur.
+3. Muestra los resultados en una interfaz gráfica.
+4. Informa pendiente máxima, mínima y promedio.
 
-## 📊 Resultados esperados
-![Ejemplo de mapa de pendientes](pendientes.png)
+## 💡 Fórmula
+Pendiente (%) = (ΔZ / DistanciaHorizontal) × 100
 
+## 💻 Ejecución
+1. Ejecuta:
+   ```bash
+   python interfaz.py
+   
 ## 👩‍💻 Autor
 Meydi Yamara Molina Jarquin  
 ICA 1A
